@@ -1,8 +1,9 @@
 import React from 'react'
 import { SectionWrapper } from '../hoc'
 import { styles } from '../styles'
-import { instagram, githubSvg, twitter, linkedin } from '../assets';
-import { Zoom } from 'react-awesome-reveal';
+import { instagram, githubSvg, twitter, linkedin, resume } from '../assets';
+import { Zoom as ZoomAwesome } from 'react-awesome-reveal';
+import { Zoom } from 'react-reveal';
 import { Tilt } from 'react-tilt';
 
 const Hero = () => {
@@ -20,12 +21,14 @@ const Hero = () => {
               I develop Progressive web applications
             </p>
             <Zoom>
-              <button className='px-8 py-3 m-[30px] transition duration-200 ease-in-out bg-violet-800 hover:bg-violet-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 shadow-lg w-fit rounded-2xl bg-white'>{'Download Resume'}</button>
+              <a href={resume} download>
+                <button className='px-8 py-3 m-[30px] transition duration-200 ease-in-out bg-violet-800 hover:bg-violet-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 shadow-lg w-fit rounded-2xl'>{'Download Resume'}</button>
+              </a>
             </Zoom>
           </div>
         </div> 
       </div>
-      <Zoom down cascade>
+      <ZoomAwesome down cascade>
         <div className='flex sm:flex-col flex-row items center mr-[20px]'>
         <Tilt options={{ max: 80 }} key={'instagram'} className='m-[20px] cursor-pointer'>
           <a href="https://www.instagram.com/monty_196/" target="_blank" ><img src={instagram}/></a> 
@@ -40,7 +43,7 @@ const Hero = () => {
           <a href="https://www.linkedin.com/in/manish-nandwani-9a2267117/" target="_blank" ><img src={linkedin} /></a> 
         </Tilt>
         </div>
-      </Zoom>
+      </ZoomAwesome>
 
     </section>
   )

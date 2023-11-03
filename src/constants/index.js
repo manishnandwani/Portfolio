@@ -25,6 +25,7 @@ import {
     threejs,
     jsLogo,
     textToSpeech,
+    sketchbook,
   } from "../assets";
 
   export const overview = "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
@@ -206,7 +207,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: sketchbook,
       hosted_link: 'https://sketchbook-omega.vercel.app/',
       source_code_link: "https://github.com/manishnandwani/sketchbook",
     },

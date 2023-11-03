@@ -35,6 +35,8 @@ import githubSvg from "./github.svg"
 import twitter from "./twitter.svg"
 import linkedin from "./linkedin2.svg"
 import textToSpeech from "./text-to-speech.png"
+import sketchbook from "./sketchbook.png"
+import resume from './MANISH-NANDWANI-23.pdf'
 
 export {
   logo,
@@ -71,4 +73,6 @@ export {
   twitter,
   linkedin,
   textToSpeech,
+  sketchbook,
+  resume,
 };
