@@ -28,16 +28,16 @@ const Hero = () => {
       <Zoom down cascade>
         <div className='flex sm:flex-col flex-row items center mr-[20px]'>
         <Tilt options={{ max: 80 }} key={'instagram'} className='m-[20px] cursor-pointer'>
-          <a href="https://www.instagram.com/" target="_blank" ><img src={instagram}/></a> 
+          <a href="https://www.instagram.com/monty_196/" target="_blank" ><img src={instagram}/></a> 
         </Tilt>
         <Tilt options={{ max: 80 }} key={'github'} className='m-[20px] cursor-pointer'>
-          <a href="https://www.github.com/" target="_blank" ><img src={githubSvg} /></a> 
+          <a href="https://github.com/manishnandwani/" target="_blank" ><img src={githubSvg} /></a> 
         </Tilt>
         <Tilt options={{ max: 80 }} key={'twitter'} className='m-[20px] cursor-pointer'>
-          <a href="https://www.x.com/" target="_blank" ><img src={twitter} /></a> 
+          <a href="https://twitter.com/Monty_196" target="_blank" ><img src={twitter} /></a> 
         </Tilt>
         <Tilt options={{ max: 80 }} key={'linkedin'} className='m-[20px] cursor-pointer'>
-          <a href="https://www.linkedin.com/" target="_blank" ><img src={linkedin} /></a> 
+          <a href="https://www.linkedin.com/in/manish-nandwani-9a2267117/" target="_blank" ><img src={linkedin} /></a> 
         </Tilt>
         </div>
       </Zoom>
