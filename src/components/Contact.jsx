@@ -13,9 +13,6 @@ const Contact = () => {
   })
 
   const [loading, setLoading] = useState(false)
-//service_4np12n4
-//template_zapeixk
-//1GKIrgLpZh-ARfk4z
 
   const handleSubmit = (e) => {
     e.preventDefault();

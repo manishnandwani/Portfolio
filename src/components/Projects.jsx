@@ -6,37 +6,39 @@ import { projects, projectsDescription } from '../constants';
 import { Tilt } from 'react-tilt';
 import { github } from '../assets';
 
-const ProjectCard = ({image, name, description, source_code_link, tags}) =>{
+const ProjectCard = ({image, name, description, source_code_link, tags, hosted_link}) =>{
   return (
     <Slide>
-      <Tilt className="bg-tertiary p-5 rounded-2xl w-full sm:w-[360px]">
-        <div className='relative w-full h-[230px]'>
-          <img 
-            src={image}
-            alt={name}
-            className='object-cover h-full w-full rounded-2xl'
-          />
-          <div className='absolute flex m-3 justify-end inset-0 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link,'_blank')}
-              className='black-gradient w-10 h-10 flex justify-center items-center cursor-pointer rounded-full'>
-              <img 
-                src={github}
-              />
+      <Tilt options={{max: 20}}  className="bg-tertiary p-5 rounded-2xl w-full sm:w-[360px]">
+        <a href={hosted_link} className="cursor-pointer" target="_blank">
+          <div className='relative w-full h-[230px]'>
+            <img 
+              src={image}
+              alt={name}
+              className='object-cover h-full w-full rounded-2xl'
+            />
+            <div className='absolute flex m-3 justify-end inset-0 card-img_hover'>
+              <div
+                onClick={() => window.open(source_code_link,'_blank')}
+                className='black-gradient w-10 h-10 flex justify-center items-center cursor-pointer rounded-full'>
+                <img 
+                  src={github}
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className='mt-5'>
-          <h3 className='font-bold text-[24px]'>{name}</h3>
-          <p className='text-secondary text-[16px]'>{description}</p>
-        </div>
-        <div className='mt-5 flex flex-row gap-3'>
-          {tags.map((tag)=>(
-            <p key={tag.name} className={`${tag.color} text-[14px]`}>
-              #{tag.name}
-            </p>
-          ))}
-        </div>
+          <div className='mt-5'>
+            <h3 className='font-bold text-[24px]'>{name}</h3>
+            <p className='text-secondary text-[16px]'>{description}</p>
+          </div>
+          <div className='mt-5 flex flex-row gap-3'>
+            {tags.map((tag)=>(
+              <p key={tag.name} className={`${tag.color} text-[14px]`}>
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+        </a>
       </Tilt>
     </Slide>
   )
@@ -54,7 +56,7 @@ const Projects = () => {
       <p className='text-secondary max-w-3xl text-[16px] mt-3 leading-[30px]'>{projectsDescription}</p>
 
 
-      <div className='flex flex-wrap gap-5 mt-10'>
+      <div className='flex flex-wrap justify-center gap-[40px] mt-10'>
         {projects.map((project,index)=>(
           <ProjectCard key={index} {...project}  />
         ))}

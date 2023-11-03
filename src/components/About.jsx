@@ -5,7 +5,7 @@ import {styles} from '../styles'
 
 import {motion} from 'framer-motion'
 
-import {fadeIn, textVariant} from '../utils/motion' 
+import {fadeIn} from '../utils/motion' 
 import { SectionWrapper } from '../hoc'
 import { Fade } from 'react-awesome-reveal';
 

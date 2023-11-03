@@ -16,11 +16,6 @@ const FeedbackCard = ({index, name, image, testimonial, designation, company}) =
             {designation} at {company}</p>
         </div>
         <div>
-{/* 
-          <img 
-            src={image}
-            className="h-14 w-14 rounded-full"
-          /> */}
         </div>
       </div>
     </div>

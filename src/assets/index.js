@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import jsLogo from "./jsLogo.png"
+import instagram from "./instagram.svg"
+import githubSvg from "./github.svg"
+import twitter from "./twitter.svg"
+import linkedin from "./linkedin2.svg"
+import textToSpeech from "./text-to-speech.png"
 
 export {
   logo,
@@ -61,4 +66,9 @@ export {
   jobit,
   tripguide,
   jsLogo,
+  instagram,
+  githubSvg,
+  twitter,
+  linkedin,
+  textToSpeech,
 };

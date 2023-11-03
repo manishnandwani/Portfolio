@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     jsLogo,
+    textToSpeech,
   } from "../assets";
 
   export const overview = "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
@@ -118,9 +119,9 @@ import {
   const experiences = [
     {
       title: "Software Engineer",
-      company_name: "Infoobjects",
-      icon: starbucks,
-      iconBg: "#383E56",
+      company_name: "Infoobjects -  Jaipur, Rajasthan",
+      icon: mobile,
+      iconBg: "#E6DEDD",
       date: "Jan 2019 - March 2020",
       points: [
         "Developing and maintaining web applications using Angular and Node js.",
@@ -131,8 +132,8 @@ import {
     },
     {
       title: "Senior Software Engineer",
-      company_name: "Ongraph Technologies",
-      icon: tesla,
+      company_name: "Ongraph Technologies -  Jaipur, Rajasthan",
+      icon: mobile,
       iconBg: "#E6DEDD",
       date: "March 2020 - Oct 2021",
       points: [
@@ -145,8 +146,8 @@ import {
     },
     {
       title: "Senior Experience Engineer",
-      company_name: "Publicis Sapient",
-      icon: meta,
+      company_name: "Publicis Sapient - Remote",
+      icon: mobile,
       iconBg: "#E6DEDD",
       date: "Oct 2021 - Present",
       points: [
@@ -188,67 +189,48 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Sketchbook",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An online drawing tool where you can create art using various tools and download your work. It also lets you share your drawings with others using WebSocket.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "socket.io",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      hosted_link: 'https://sketchbook-omega.vercel.app/',
+      source_code_link: "https://github.com/manishnandwani/sketchbook",
+    },
+    {
+      name: "Text to speech",
+      description:
+      "A web application that accepts either your spoken input or text input and then offers the option to read it out loud using various voices, pitch, and speed settings.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: textToSpeech,
+      hosted_link: 'https://manishnandwani.github.io/Voice-text-to-speach/',
+      source_code_link: "https://github.com/manishnandwani/Voice-text-to-speach",
     },
   ];
   
