@@ -125,38 +125,37 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2019 - March 2020",
       points: [
-        "Developing and maintaining web applications using Angular and Node js.",
-        "Collaborating with the user experience (UX) team to create intuitive and user-friendly interfaces.",
-        "Adapting to changing project requirements and priorities while meeting deadlines effectively.",
+        "Developed and maintained a web application using Angular and Node js.",
+        "Engaged with websockets, integrated REST APIs, incorporated Facebook and Google authentication, deployed the application on Firebase, and leveraged AWS services such as S3 and EC2..",
         "Continuous learning and improvement through self-driven exploration of new tools and technologies."
       ],
     },
     {
-      title: "Senior Software Engineer",
-      company_name: "Ongraph Technologies -  Jaipur, Rajasthan",
+      title: "SDE-I",
+      company_name: "Ongraph Technologies -  Remote",
       icon: mobile,
       iconBg: "#E6DEDD",
       date: "March 2020 - Oct 2021",
       points: [
-        "Developing and maintaining web applications using React.js, Nodejs, redux and other related technologies.",
-        "Worked as a full stack developer to develop a MERN stack application for a Fintech startup client which provides loan to students online.",
-        "Writing clean and efficient code that's easy to understand and maintain.",
-        "Integrating third-party APIs and services to add more functionality to the applications.",
+        "Implemented tree shaking concept for importing modules which results in reducing approx 10% of overall size of application bundle.",
+        "Maintained version control using Git, ensuring collaboration and codebase integrity.",
+        "Developed a loan algorithm for a fintech product, smoothly integrated third-party APIs, and utilized Redux for effective state management.",
+        "Worked on a react-konva canvas app with advanced undo/redo using a custom memoization algorithm. Implemented a robust feature for precise coordination maintenance on the canvas.",
         "Troubleshooting and debugging issues to improve the overall performance of the applications."
       ],
     },
     {
-      title: "Senior Experience Engineer",
+      title: "Senior Software Engineer",
       company_name: "Publicis Sapient - Remote",
       icon: mobile,
       iconBg: "#E6DEDD",
       date: "Oct 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js, typescript, Next js, graphql, context api.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-        "Also a member of hiring panel for Experience core XT community specializes in react",
-        "Elements are designed and structured in a way that allows people with disabilities to easily perceive, navigate, and interact with the web page."
+        "Optimized application performance with code splitting and lazy loading in Next.js, leveraging the Intersection Observer API, resulting in an approximate 200ms reduction in load time.",
+        "Improved the caching mechanism of data fetching by incorporating GraphQL as a query language. Worked on ATOMIC design pattern to improve code modularity in a monolithic application.",
+        "Enhanced accessibility, authored tests for the app using Jest and React Testing Library, and increased its speed by resolving code smells.",
+        "Developed the login with OTP module in React.js utilizing input refs, refactored the primary component logic of the application to incorporate debounced search functionality.",
+        "Conducted a POC for list virtualization to efficiently display content lists and explored different ways to optimize images with lazy loading, using webp format."
       ],
     },
   ];
